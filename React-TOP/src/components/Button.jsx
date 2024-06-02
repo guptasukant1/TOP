@@ -8,7 +8,6 @@ function Button({text, color, fontSize, backColor, alignit}){
         color: color,
         fontSize: fontSize + 'px',
         backgroundColor: backColor,
-	alignItems: alignit,
     }
     return(
         <button style={buttonStyle}>{text}</button>
